@@ -4,6 +4,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Adam%20Wei-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adam-wei-4407a13b8)
 [![Build log](https://img.shields.io/badge/Build%20log-read%20the%20write--ups-24292f?logo=github)](https://github.com/adamwei2009-design/build-log)
+[![tests](https://github.com/adamwei2009-design/build-log/actions/workflows/tests.yml/badge.svg)](https://github.com/adamwei2009-design/build-log/actions)
 
 I work on AI and automation for a small UK home-services company, alongside a Level 3 Data Technician apprenticeship with NowSkills. I look for places where work gets lost or slowed down, map how the process really flows, set the rules for a fix and test it before anything goes live.
 
@@ -36,17 +37,19 @@ flowchart LR
 | [Enquiry auto-reply](https://github.com/adamwei2009-design/build-log/blob/main/builds/01-enquiry-auto-reply.md) | Live | Process design, routing rules, a daily "nothing slipped" check |
 | [WhatsApp quote journey](https://github.com/adamwei2009-design/build-log/blob/main/builds/02-whatsapp-quote-journey.md) | Live | API integration; first reply cut from about 2m40s to 27s in testing |
 | [Upload safety check](https://github.com/adamwei2009-design/build-log/tree/main/tools) | In use | Python: blocks secrets and personal data before anything goes public |
+| [Working examples with tests](https://github.com/adamwei2009-design/build-log/tree/main/examples) | 10 tests passing | Python: merging repeat alerts, routing by context, a safe delete gate, cleaning image metadata |
 
 More are added as I write them up. Full list: [build-log](https://github.com/adamwei2009-design/build-log).
 
 ## Skills
 
-**Using now:** Excel · Power Query · Google Sheets · Zapier · Cloudflare Workers · Process mapping (Lucidchart) · Claude and ChatGPT
-**Learning:** SQL · Power BI · Python
+**Using now:** Excel · Power Query · Google Sheets · Zapier · Cloudflare Workers · Python (with pytest) · Process mapping (Lucidchart) · Claude and ChatGPT
+**Learning:** SQL · Power BI
 
 ## Learning
 
 - Level 3 Data Technician apprenticeship (NowSkills), in progress
+- LinkedIn Learning: Learning Data Analytics 1: Foundations (completed May 2026)
 - Current focus: checking data before trusting it (row counts, raw-data checks, spotting the mistake), Power Query, SQL
 
 📫 The best way to reach me is a message on [LinkedIn](https://www.linkedin.com/in/adam-wei-4407a13b8).
