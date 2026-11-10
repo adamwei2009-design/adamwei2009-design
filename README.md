@@ -32,6 +32,16 @@ flowchart LR
 
 ## Data analysis
 
+**[How homes are heated: Census 2021](https://github.com/adamwei2009-design/build-log/tree/main/analysis/home-heating-census)**: real published data for 24.8 million households in England and Wales, from the Office for National Statistics.
+
+- **Checked first:** every area adds up, and my figures match what ONS published.
+- **SQL:** 6 questions, each answered a second way in Python so the two must match.
+- **Honest about limits:** two totals differ by 30 households, and I say so instead of hiding it.
+
+[![Mains gas by region](https://raw.githubusercontent.com/adamwei2009-design/build-log/main/analysis/home-heating-census/chart2_gas_by_region.png)](https://github.com/adamwei2009-design/build-log/tree/main/analysis/home-heating-census)
+
+Source: ONS, Census 2021, table TS046. Open Government Licence v3.0.
+
 **[Service jobs analysis](https://github.com/adamwei2009-design/build-log/tree/main/analysis/service-jobs)**: one year of made-up service jobs, taken from a messy export to findings in 4 stages.
 
 - **Clean:** duplicates, test rows and mixed date formats fixed in Python, with row counts before and after every step.
@@ -41,7 +51,7 @@ flowchart LR
 
 [![Repair waits are longer in winter](https://raw.githubusercontent.com/adamwei2009-design/build-log/main/analysis/service-jobs/stage3-charts/chart2_repair_wait.png)](https://github.com/adamwei2009-design/build-log/tree/main/analysis/service-jobs)
 
-All the data is made up. The method is real.
+The data in this second project is made up. The method is real.
 
 ## Selected builds
 
