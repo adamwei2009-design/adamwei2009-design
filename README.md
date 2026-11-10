@@ -2,7 +2,7 @@
 
 **Data Technician apprentice (Level 3) · Liverpool, UK · working towards Data Analyst**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Adam%20Wei-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adam-wei-4407a13b8)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Adam%20Wei-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adamwei)
 [![Build log](https://img.shields.io/badge/Build%20log-read%20the%20write--ups-24292f?logo=github)](https://github.com/adamwei2009-design/build-log)
 [![tests](https://github.com/adamwei2009-design/build-log/actions/workflows/tests.yml/badge.svg)](https://github.com/adamwei2009-design/build-log/actions)
 
@@ -52,4 +52,4 @@ More are added as I write them up. Full list: [build-log](https://github.com/ada
 - LinkedIn Learning: Learning Data Analytics 1: Foundations (completed May 2026)
 - Current focus: checking data before trusting it (row counts, raw-data checks, spotting the mistake), Power Query, SQL
 
-📫 The best way to reach me is a message on [LinkedIn](https://www.linkedin.com/in/adam-wei-4407a13b8).
+📫 The best way to reach me is a message on [LinkedIn](https://www.linkedin.com/in/adamwei).
