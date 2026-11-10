@@ -30,12 +30,26 @@ flowchart LR
   H --> I[Daily check: did anything slip?]
 ```
 
+## Data analysis
+
+**[Service jobs analysis](https://github.com/adamwei2009-design/build-log/tree/main/analysis/service-jobs)**: one year of made-up service jobs, taken from a messy export to findings in 4 stages.
+
+- **Clean:** duplicates, test rows and mixed date formats fixed in Python, with row counts before and after every step.
+- **SQL:** 5 business questions, each answered a second way in Python so the two must match.
+- **Charts:** titles that state the answer, and tests that fail if a title stops being true.
+- **Findings:** a statistical test flagged the wrong engineer, so I show why you check before you blame.
+
+[![Repair waits are longer in winter](https://raw.githubusercontent.com/adamwei2009-design/build-log/main/analysis/service-jobs/stage3-charts/chart2_repair_wait.png)](https://github.com/adamwei2009-design/build-log/tree/main/analysis/service-jobs)
+
+All the data is made up. The method is real.
+
 ## Selected builds
 
 | Build | Status | What it shows |
 |---|---|---|
 | [Enquiry auto-reply](https://github.com/adamwei2009-design/build-log/blob/main/builds/01-enquiry-auto-reply.md) | Live | Process design, routing rules, a daily "nothing slipped" check |
 | [WhatsApp quote journey](https://github.com/adamwei2009-design/build-log/blob/main/builds/02-whatsapp-quote-journey.md) | Live | API integration; first reply cut from about 2m40s to 27s in testing |
+| [The monthly review that adds up](https://github.com/adamwei2009-design/build-log/blob/main/builds/monthly-review.md) | Live | Reporting: every total is checked against the raw rows before it is shown |
 | [Upload safety check](https://github.com/adamwei2009-design/build-log/tree/main/tools) | In use | Python: blocks secrets and personal data before anything goes public |
 | [Working examples with tests](https://github.com/adamwei2009-design/build-log/tree/main/examples) | 10 tests passing | Python: merging repeat alerts, routing by context, a safe delete gate, cleaning image metadata |
 
