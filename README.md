@@ -48,6 +48,7 @@ Source: ONS, Census 2021, table TS046. Open Government Licence v3.0.
 - **SQL:** 5 business questions, each answered a second way in Python so the two must match.
 - **Charts:** titles that state the answer, and tests that fail if a title stops being true.
 - **Findings:** a statistical test flagged the wrong engineer, so I show why you check before you blame.
+- **Power BI:** the same data as a [one-page dashboard](https://github.com/adamwei2009-design/build-log/tree/main/analysis/service-jobs/powerbi), with DAX measures and every card checked against the SQL.
 
 [![Repair waits are longer in winter](https://raw.githubusercontent.com/adamwei2009-design/build-log/main/analysis/service-jobs/stage3-charts/chart2_repair_wait.png)](https://github.com/adamwei2009-design/build-log/tree/main/analysis/service-jobs)
 
